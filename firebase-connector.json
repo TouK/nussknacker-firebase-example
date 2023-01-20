@@ -1,0 +1,9 @@
+{
+  "connector.class": "io.confluent.connect.firebase.FirebaseSourceConnector",
+  "tasks.max": 1,
+  "gcp.firebase.database.reference": "https://nussknacker-a00f7-default-rtdb.europe-west1.firebasedatabase.app/musicBlog",
+  "gcp.firebase.credentials.json": "CREDENTIALS",
+  "gcp.firebase.snapshot": false,
+  "confluent.topic.replication.factor": 1,
+  "confluent.topic.bootstrap.servers": "kafka:9092"
+}
